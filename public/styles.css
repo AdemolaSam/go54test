@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: red 3px solid;
+}
+
+ul {
+  text-decoration: none;
+  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+li {
+  text-decoration: none;
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  background: #000;
+  color: orange;
+  height: 100%;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  height: 2em;
+  background-color: gray;
+}
