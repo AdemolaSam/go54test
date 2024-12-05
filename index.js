@@ -12,13 +12,13 @@ app.get("/go54", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.json({
+  return res.json({
     name: "ADEMOLA",
     success: "true",
     message: "Test Successful",
   });
 });
 
-app.listen(5000, () => {
-  console.log("SERVER LISTENING ON PORT: ", 5000);
+app.listen(process.env.PORT, () => {
+  console.log("SERVER LISTENING ON PORT: ", PORT);
 });
